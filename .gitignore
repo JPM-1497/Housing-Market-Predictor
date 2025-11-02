@@ -1,0 +1,40 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+
+# Env & local config
+*.env
+*.env.*
+infra/.env
+.env
+.envrc
+
+# Data & artifacts (adjust to your folders)
+data/
+downloads/
+tmp/
+*.sqlite
+
+# Models & experiment artifacts
+models/*.pkl
+models/*.joblib
+mlruns/            # if you later add MLflow local storage
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node (if you later add a small UI)
+node_modules/
+
+# dbt generated
+dbt/target/
+dbt/logs/
